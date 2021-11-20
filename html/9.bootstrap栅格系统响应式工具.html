@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap栅格系统</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../bootstrap-3.4.1-dist//css/bootstrap.min.css">
+    <style>
+      .row div{
+        height: 50px;
+        background-color: pink;
+      }
+      span{
+        font-size: 30px;
+        color:#FFF
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+          <div class="col-xs-3 visible-lg">
+            <span>我会显示哦</span>
+          </div>
+          <div class="col-xs-3">2</div>
+          <div class="col-xs-3 hidden-md">我会变魔术哦</div>
+          <div class="col-xs-3">4</div>
+        </div>
+    </div>
+  </body>
+</html>
